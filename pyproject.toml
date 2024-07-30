@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "swiftmail"
+version = "0.1.0"
+description = "Backend for a mail application."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+flask-sqlalchemy = "^3.1.1"
+flask-pymongo = "^2.3.0"
+flask-jwt-extended = "^4.6.0"
+python-dotenv = "^1.0.1"
+flask-cors = "^4.0.1"
+nltk = "^3.8.1"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
